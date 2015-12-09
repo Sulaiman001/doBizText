@@ -1,6 +1,7 @@
 .classpath
 .project
 .openshift/
+webapps/
 .settings/
 test-output/
 /target/
