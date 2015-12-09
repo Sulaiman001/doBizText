@@ -1,5 +1,6 @@
 .classpath
 .project
+.openshift/
 .settings/
 test-output/
 /target/
