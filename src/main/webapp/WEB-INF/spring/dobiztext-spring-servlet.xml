@@ -25,11 +25,12 @@
 	<mvc:resources mapping="/resources/**" location="/WEB-INF/static-content/" cache-period="10000" />
 	
 	<!-- Spring MVC global exception handling -->
-	<bean class="com.abuabdul.dobiztext.exception.resolver.FourTExceptionResolver">
+	<bean class="com.abuabdul.dobiztext.exception.DoBizTextExceptionResolver">
 	    <property name="exceptionMappings">
 	        <props>
 	        <!-- Map apt error views -->
-	            <prop key="Exception">generic/error</prop>
+	            <prop key="DoBizTextException">generic/error</prop>
+	            <prop key="DoBizTextServiceException">generic/error</prop>
 	        </props>
 	    </property>
 	    <property name="defaultErrorView" value="generic/error" />
