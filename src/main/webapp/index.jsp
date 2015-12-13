@@ -28,7 +28,6 @@
     <![endif]-->
     <link rel="shortcut icon" href="<c:url value='/resources/images/ico/favicon.ico'/>">
 </head><!--/head-->
-    
 <body>
 	<header id="header">      
         <div class="container">
