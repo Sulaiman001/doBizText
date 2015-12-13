@@ -312,7 +312,7 @@
                         <h2>Send a message</h2>
                         <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
                             <div class="form-group">
-                                <input type="text" name="name" class=control" required="required" placeholder="Name">
+                                <input type="text" name="name" class="form-control" required="required" placeholder="Name">
                             </div>
                             <div class="form-group">
                                 <input type="email" name="email" class="form-control" required="required" placeholder="Email Id">
