@@ -9,7 +9,6 @@
 </head>
 <body>
    	<div id="wrapper">
-		<tiles:insertAttribute name="sidebar"/>
 		<tiles:insertAttribute name="body"/>
 	</div>
 	<!-- /#wrapper -->
