@@ -35,8 +35,7 @@ public class DoBizTextOverviewController {
 	@RequestMapping("/landing/doBizTextOverview.go")
 	public String overviewPage() {
 		log.debug("Entering overviewPage() in the DoBizTextOverviewController");
-		//return "overview";
-		return "doBizTextOverview";
+		return "overview";
 	}
 
 }
