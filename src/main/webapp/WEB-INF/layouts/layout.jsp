@@ -8,9 +8,9 @@
 <tiles:insertAttribute name="siteHeaderInclude"/>
 </head>
 <body>
-   	<div id="wrapper">
-		<tiles:insertAttribute name="body"/>
-	</div>
+    <tiles:insertAttribute name="topmenu"/>
+	<tiles:insertAttribute name="body"/>
+	<tiles:insertAttribute name="footer"/>
 	<!-- /#wrapper -->
 	<tiles:insertAttribute name="siteFooterInclude"/>
 </body>
