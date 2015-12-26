@@ -25,7 +25,7 @@
                     </button>
 
                     <a class="navbar-brand" href="index.html">
-                    	<h1><img src="<c:url value='/resources/images/logo.png'/>" alt="logo"></h1>
+                    	<h1><i class="fa fa-diamond"></i>United Box</h1>
                     </a>
                     
                 </div>
@@ -39,23 +39,14 @@
                                 <li><a href="service.html">Update Customer</a></li>
                             </ul>
                         </li>                  
-                        <li class="dropdown"><a href="blog.html">Blog <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="blog.html">Blog Default</a></li>
-                                <li><a href="blogtwo.html">Timeline Blog</a></li>
-                                <li><a href="blogone.html">2 Columns + Right Sidebar</a></li>
-                                <li><a href="blogthree.html">1 Column + Left Sidebar</a></li>
-                                <li><a href="blogfour.html">Blog Masonary</a></li>
-                                <li><a href="blogdetails.html">Blog Details</a></li>
-                            </ul>
-                        </li>
                         <li class="dropdown"><a href="portfolio.html">Services <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
                                 <li><a href="portfolio.html">Service 1</a></li>
                                 <li><a href="portfoliofour.html">Service 2</a></li>
                                 <li><a href="portfolioone.html">Service 3</a></li>
                             </ul>
-                        </li>                         
+                        </li>   
+                        <li class="active"><a href="index.html">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
