@@ -3,7 +3,7 @@
         <div class="container">
             <div class="main-slider">
                 <div class="slide-text">
-                    <h1>We supply boxes for your precious jewels</h1>
+                    <h1>We supply jewel packs/boxes for your precious jewels</h1>
                 </div>
                 <img src="<c:url value='/resources/images/sky_building1.jpeg'/>" class="img-responsive slider-house'/>" alt="slider image">
             </div>
