@@ -1,8 +1,8 @@
-*.class
-*.project
+.class
+.project
 .classpath
-.settings/
-.openshift/
+.settings/*
+.openshift/*
 webapps/
 test-output/
 target/
