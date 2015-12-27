@@ -17,10 +17,10 @@
                 <div class="row">
                     <div class="action take-tour">
                         <div class="col-sm-7">
-                            <h1 class="title">We have happy clients</h1>
-                            <p>A business flourishes only through happy clients. Take a look at our clients across the states</p>
+                            <h1 class="title">We have happy customers</h1>
+                            <p>A business flourishes only through happy customers. Take a look at our clients across the states</p>
                              <div class="tour-button">
-                                <a href="#" class="btn btn-common">See our Clients</a>
+                                <a href="#" class="btn btn-common">See our customers</a>
                              </div>
                         </div>
                     </div>
