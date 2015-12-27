@@ -11,7 +11,6 @@
     <tiles:insertAttribute name="topmenu"/>
 	<tiles:insertAttribute name="body"/>
 	<tiles:insertAttribute name="footer"/>
-	<!-- /#wrapper -->
 	<tiles:insertAttribute name="siteFooterInclude"/>
 </body>
 </html>

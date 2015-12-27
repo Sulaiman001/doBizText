@@ -40,4 +40,8 @@
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
 	
+<<<<<<< HEAD
 </web-app>
+=======
+</web-app>
+>>>>>>> d0c0ff47668fc99ff46db106eb1b3d695b121bf4

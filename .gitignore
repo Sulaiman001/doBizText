@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 .class
 .project
 .classpath
 .settings/*
 .openshift/*
+=======
+*.class
+*.project
+*.classpath
+.settings/
+.openshift/
+>>>>>>> d0c0ff47668fc99ff46db106eb1b3d695b121bf4
 webapps/
 test-output/
 target/
@@ -15,4 +23,8 @@ target/
 *.ear
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+<<<<<<< HEAD
 hs_err_pid*
+=======
+hs_err_pid*
+>>>>>>> d0c0ff47668fc99ff46db106eb1b3d695b121bf4
