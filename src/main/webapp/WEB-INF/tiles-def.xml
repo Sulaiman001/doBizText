@@ -32,7 +32,11 @@
 
 	<!-- Error page views start -->
 	<definition name="generic/error" extends="base.definition">
+		<put-attribute name="title" value="doBizText - Error" />
+		<put-attribute name="topmenu" value="/WEB-INF/layouts/blank.jsp"/>
 		<put-attribute name="body" value="/WEB-INF/jsp/errors/errorPage.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layouts/blank.jsp"/>
+		<put-attribute name="siteFooterInclude" value="/WEB-INF/jsp/includes/footerinclude.jsp" />
 	</definition>
 	<!-- Error page views end -->
 </tiles-definitions>

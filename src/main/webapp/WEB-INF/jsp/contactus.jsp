@@ -1,3 +1,4 @@
+<%@ include file="/WEB-INF/jsp/includes/siteTags.jsp"%>
   <section id="page-breadcrumb">
         <div class="vertical-center sun">
              <div class="container">

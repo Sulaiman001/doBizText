@@ -1,4 +1,5 @@
-    <section id="page-breadcrumb">
+<%@ include file="/WEB-INF/jsp/includes/siteTags.jsp"%>
+  <section id="page-breadcrumb">
         <div class="vertical-center sun">
              <div class="container">
                 <div class="row">
@@ -95,7 +96,7 @@
             <div class="row">
                 <div class="about-us">
                     <div class="col-sm-7 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <h2 class="bold">About Triangle</h2>
+                        <h2 class="bold">About United Jewel Pack</h2>
                         <div class="row">
                             <div class="col-sm-5">
                                 <img src="images/aboutus/6.png" class="img-responsive" alt="">
@@ -110,19 +111,19 @@
                         <div class="our-skills">
                             <h2 class="bold">Our Skills</h2>
                             <div class="single-skill">
-                                <h3>Design</h3>
+                                <h3>Delivery</h3>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-transition="35">35%</div>
                                 </div>
                             </div>
                             <div class="single-skill">
-                                <h3>HTML</h3>
+                                <h3>Quality</h3>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-transition="80">80%</div>
                                 </div>
                             </div>
                             <div class="single-skill">
-                                <h3>PHP</h3>
+                                <h3>Loyalty</h3>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-transition="60">60%</div>
                                 </div>

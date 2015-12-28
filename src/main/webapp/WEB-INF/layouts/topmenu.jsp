@@ -25,7 +25,7 @@
                     </button>
 
                     <a class="navbar-brand" href="<c:url value='/landing/overview.go'/>">
-                    	<h1><i class="fa fa-diamond"></i>United Box</h1>
+                    	<h1><i class="fa fa-diamond"></i>United Pack</h1>
                     </a>
                     
                 </div>
@@ -41,9 +41,9 @@
                         </li>                  
                         <li class="dropdown"><a href="portfolio.html">Services <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="<c:url value='/landing/doBizTextOverview.go'/>">Service 1</a></li>
-                                <li><a href="<c:url value='/landing/doBizTextOverview.go'/>">Service 2</a></li>
-                                <li><a href="<c:url value='/landing/doBizTextOverview.go'/>">Service 3</a></li>
+                                <li><a href="<c:url value='/landing/overview.go'/>">Service 1</a></li>
+                                <li><a href="<c:url value='/landing/overview.go'/>">Service 2</a></li>
+                                <li><a href="<c:url value='/landing/overview.go'/>">Service 3</a></li>
                             </ul>
                         </li>   
                         <li><a href="<c:url value='/landing/aboutus.go'/>">About Us</a></li>
