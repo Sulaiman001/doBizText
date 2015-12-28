@@ -15,7 +15,11 @@
 	</definition>
 	
 	<definition name="overview" extends="base.definition">
-		<put-attribute name="body" value="/WEB-INF/jsp/doBizTextOverview.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/overview.jsp" />
+	</definition>
+	
+	<definition name="add/view/accounts" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/customers/addCustomers.jsp" />
 	</definition>
 
 	<!-- Error page views start -->

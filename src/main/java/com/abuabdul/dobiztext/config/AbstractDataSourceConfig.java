@@ -46,16 +46,16 @@ public abstract class AbstractDataSourceConfig {
 	@Value("${dobiztext.inmemory.password}")
 	protected String passwordInMem;
 
-	@Value("${OPENSHIFT_SQL_DB_HOST}")
+	@Value("${OPENSHIFT_MYSQL_DB_HOST}")
 	protected String host;
 
-	@Value("${OPENSHIFT_SQL_DB_PORT}")
+	@Value("${OPENSHIFT_MYSQL_DB_PORT}")
 	protected String port;
 
-	@Value("${OPENSHIFT_SQL_DB_USERNAME}")
+	@Value("${OPENSHIFT_MYSQL_DB_USERNAME}")
 	protected String username;
 
-	@Value("${OPENSHIFT_SQL_DB_PASSWORD}")
+	@Value("${OPENSHIFT_MYSQL_DB_PASSWORD}")
 	protected String password;
 
 	@Value("${jdbc.poolInitialSize}")

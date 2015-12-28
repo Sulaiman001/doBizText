@@ -12,7 +12,7 @@
 <%-- No Cache on browser, forces to fetch new copy from server --%>
 <meta http-equiv="Expires" content="0" />
 <meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate" />
-<meta http-equiv="Pragma" content="no-cache" /><!-- HTTP 1.0 compatibility -->
+<meta http-equiv="Pragma" content="no-cache" /><%-- HTTP 1.0 compatibility  --%> 
 <%-- use response object to disable cache --%>
 <%
 response.setDateHeader ("Expires", 0);

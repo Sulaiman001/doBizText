@@ -24,29 +24,30 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="<c:url value='/landing/doBizTextOverview.go'/>">
                     	<h1><i class="fa fa-diamond"></i>United Box</h1>
                     </a>
                     
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="<c:url value='/landing/doBizTextOverview.go'/>">Home</a></li>
                         <li class="dropdown"><a href="#">Account <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="aboutus.html">Add Customer</a></li>
-                                <li><a href="aboutus2.html">View Customer</a></li>
-                                <li><a href="service.html">Update Customer</a></li>
+                                <li><a href="<c:url value='/secure/account/addCustomers.go'/>">Add Customers</a></li>
+                                <li><a href="<c:url value='/secure/account/viewCustomers.go'/>">View Customers</a></li>
+                                <li><a href="<c:url value='/secure/account/manageCustomers.go'/>">Manage Customers</a></li>
                             </ul>
                         </li>                  
                         <li class="dropdown"><a href="portfolio.html">Services <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="portfolio.html">Service 1</a></li>
-                                <li><a href="portfoliofour.html">Service 2</a></li>
-                                <li><a href="portfolioone.html">Service 3</a></li>
+                                <li><a href="<c:url value='/landing/doBizTextOverview.go'/>">Service 1</a></li>
+                                <li><a href="<c:url value='/landing/doBizTextOverview.go'/>">Service 2</a></li>
+                                <li><a href="<c:url value='/landing/doBizTextOverview.go'/>">Service 3</a></li>
                             </ul>
                         </li>   
-                        <li class="active"><a href="index.html">Contact Us</a></li>
+                        <li><a href="<c:url value='/landing/doBizTextOverview.go'/>">About Us</a></li>
+                        <li><a href="<c:url value='/landing/doBizTextOverview.go'/>">Contact Us</a></li>
                     </ul>
                 </div>
             </div>

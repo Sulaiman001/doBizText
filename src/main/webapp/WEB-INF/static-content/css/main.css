@@ -89,12 +89,10 @@
 
   #action .col-sm-5{
     position: absolute;
-
     top: 0;
     height: 100%;
     right: 0;
   }
-
 
   .btn-common:hover, 
   .btn-common:focus{
@@ -522,7 +520,6 @@ ul.sub-menu {
   animation: fadeInLeftBig 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
 }
 
->>>>>>> d0c0ff47668fc99ff46db106eb1b3d695b121bf4
 #home-slider .slider-house {
   position: absolute;
   right: 0;
@@ -643,12 +640,20 @@ ul.sub-menu {
 }
 
 
-#action, 
-#page-breadcrumb {
-  background-image: url(../images/home/tour-bg.png);
+#action {
   background-color: #fbfafa;
   background-repeat: repeat-x;
   height: 330px;
+  background-position: center;
+  display: table;
+  position: static;
+  width: 100%;
+}
+	
+#page-breadcrumb {
+  background-color: #fbfafa;
+  background-repeat: repeat-x;
+  height: 155px;
   background-position: center;
   display: table;
   position: static;
@@ -663,7 +668,6 @@ ul.sub-menu {
 }
 
 .sun{
-  background-image: url(../images/home/tour-icon1.png);
   background-repeat: no-repeat;
   background-position: 100% bottom;
 }
@@ -2208,7 +2212,6 @@ span.stButton_gradient,
 }
 
 .bg-404 {
-  background-image: url("../images/home/tour-bg.png");
   background-repeat: repeat-x;
   background-position: center top;
 }
