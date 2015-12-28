@@ -24,14 +24,14 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand" href="<c:url value='/landing/doBizTextOverview.go'/>">
+                    <a class="navbar-brand" href="<c:url value='/landing/overview.go'/>">
                     	<h1><i class="fa fa-diamond"></i>United Box</h1>
                     </a>
                     
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="<c:url value='/landing/doBizTextOverview.go'/>">Home</a></li>
+                        <li class="active"><a href="<c:url value='/landing/overview.go'/>">Home</a></li>
                         <li class="dropdown"><a href="#">Account <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
                                 <li><a href="<c:url value='/secure/account/addCustomers.go'/>">Add Customers</a></li>
@@ -46,8 +46,8 @@
                                 <li><a href="<c:url value='/landing/doBizTextOverview.go'/>">Service 3</a></li>
                             </ul>
                         </li>   
-                        <li><a href="<c:url value='/landing/doBizTextOverview.go'/>">About Us</a></li>
-                        <li><a href="<c:url value='/landing/doBizTextOverview.go'/>">Contact Us</a></li>
+                        <li><a href="<c:url value='/landing/aboutus.go'/>">About Us</a></li>
+                        <li><a href="<c:url value='/landing/contactus.go'/>">Contact Us</a></li>
                     </ul>
                 </div>
             </div>

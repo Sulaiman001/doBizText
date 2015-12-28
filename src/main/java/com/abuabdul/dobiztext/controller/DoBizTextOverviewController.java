@@ -32,10 +32,22 @@ public class DoBizTextOverviewController {
 
 	private static final Logger log = LogManager.getLogger(DoBizTextOverviewController.class.getName());
 
-	@RequestMapping("/landing/doBizTextOverview.go")
+	@RequestMapping("/landing/overview.go")
 	public String overviewPage() {
 		log.debug("Entering overviewPage() in the DoBizTextOverviewController");
 		return "overview";
+	}
+
+	@RequestMapping("/landing/contactus.go")
+	public String contactusPage() {
+		log.debug("Entering contactusPage() in the DoBizTextOverviewController");
+		return "contactus";
+	}
+
+	@RequestMapping("/landing/aboutus.go")
+	public String aboutusPage() {
+		log.debug("Entering aboutusPage() in the DoBizTextOverviewController");
+		return "aboutus";
 	}
 
 }

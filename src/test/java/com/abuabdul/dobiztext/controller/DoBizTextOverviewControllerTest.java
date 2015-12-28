@@ -16,12 +16,14 @@
  */
 package com.abuabdul.dobiztext.controller;
 
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
+import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standaloneSetup;
+
 import org.mockito.InjectMocks;
 import org.mockito.MockitoAnnotations;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -39,12 +41,21 @@ public class DoBizTextOverviewControllerTest {
 	@BeforeMethod
 	public void initMocks() {
 		MockitoAnnotations.initMocks(this);
-		mockMvc = MockMvcBuilders.standaloneSetup(doBizTextOverviewController).build();
+		mockMvc = standaloneSetup(doBizTextOverviewController).build();
 	}
 
 	@Test(groups = "integration")
 	public void testOverviewPage() throws Exception {
-		mockMvc.perform(MockMvcRequestBuilders.post("/landing/doBizTextOverview.go"))
-				.andExpect(MockMvcResultMatchers.status().isOk());
+		mockMvc.perform(post("/landing/overview.go")).andExpect(status().isOk()).andExpect(view().name("overview"));
+	}
+
+	@Test(groups = "integration")
+	public void testContactUsPage() throws Exception {
+		mockMvc.perform(post("/landing/contactus.go")).andExpect(status().isOk()).andExpect(view().name("contactus"));
+	}
+
+	@Test(groups = "integration")
+	public void testAboutUsPage() throws Exception {
+		mockMvc.perform(post("/landing/aboutus.go")).andExpect(status().isOk()).andExpect(view().name("aboutus"));
 	}
 }

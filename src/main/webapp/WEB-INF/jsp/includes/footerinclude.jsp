@@ -8,6 +8,11 @@
 
 <script src="<c:url value='/resources/js/main.js'/>"></script>
 
+<%-- Gmap js --%>
+<script src="<c:url value='/resources/js/gmaps.js'/>"></script>
+<script src="<c:url value='/resources/js/wow.min.js'/>"></script>
+<script src="<c:url value='/resources/js/jquery.countTo.js'/>"></script>
+
 <%-- For Bootstrap Validator  --%> 
 <script src="<c:url value='/resources/js/bootstrapValidator.min.js'/>"></script>
 <script src="<c:url value='/resources/js/validation.util.js'/>"></script>

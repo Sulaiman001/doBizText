@@ -18,6 +18,14 @@
 		<put-attribute name="body" value="/WEB-INF/jsp/overview.jsp" />
 	</definition>
 	
+	<definition name="contactus" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/contactus.jsp" />
+	</definition>
+	
+	<definition name="aboutus" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/aboutus.jsp" />
+	</definition>
+	
 	<definition name="add/view/accounts" extends="base.definition">
 		<put-attribute name="body" value="/WEB-INF/jsp/customers/addCustomers.jsp" />
 	</definition>

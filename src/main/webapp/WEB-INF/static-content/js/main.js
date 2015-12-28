@@ -58,6 +58,11 @@ jQuery(function($) {'use strict';
 		$this.countTo(options);
 	}
 		
+	// Search
+	$('.fa-search').on('click', function() {
+		$('.field-toggle').fadeToggle(200);
+	});
+
 	// Contact form
 	var form = $('#main-contact-form');
 	form.submit(function(event){
@@ -77,5 +82,32 @@ jQuery(function($) {'use strict';
 	$.each($('div.progress-bar'),function(){
 		$(this).css('width', $(this).attr('data-transition')+'%');
 	});
+
+	if( $('#gmap').length ) {
+		var map;
+
+		map = new GMaps({
+			el: '#gmap',
+			lat: 8.7021245,
+			lng: 77.7093673,
+			scrollwheel:false,
+			zoom: 17,
+			zoomControl : false,
+			panControl : false,
+			streetViewControl : false,
+			mapTypeControl: false,
+			overviewMapControl: false,
+			clickable: false
+		});
+
+		map.addMarker({
+			lat: 8.7021245,
+			lng: 77.7093673,
+			animation: google.maps.Animation.DROP,
+			verticalAlign: 'bottom',
+			horizontalAlign: 'center',
+			backgroundColor: '#3e8bff',
+		});
+	}
 
 });
