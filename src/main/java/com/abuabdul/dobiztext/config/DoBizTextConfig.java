@@ -16,7 +16,10 @@
  */
 package com.abuabdul.dobiztext.config;
 
+import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
 
 /**
  * @author abuabdul
@@ -25,4 +28,15 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class DoBizTextConfig {
 
+	private static final String APPCONFIG_FILE_NAME = "Appconfig.properties";
+
+	@Bean
+	public static PropertyPlaceholderConfigurer propertyPlaceholderConfigurer() {
+		PropertyPlaceholderConfigurer propertyConfigurer = new PropertyPlaceholderConfigurer();
+		propertyConfigurer.setLocation(new ClassPathResource(APPCONFIG_FILE_NAME));
+		propertyConfigurer.setIgnoreResourceNotFound(false);
+		propertyConfigurer.setIgnoreUnresolvablePlaceholders(false);
+		propertyConfigurer.setSystemPropertiesMode(PropertyPlaceholderConfigurer.SYSTEM_PROPERTIES_MODE_OVERRIDE);
+		return propertyConfigurer;
+	}
 }
