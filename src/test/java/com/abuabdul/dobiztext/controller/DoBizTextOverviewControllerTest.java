@@ -24,7 +24,7 @@ import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standal
 import org.mockito.InjectMocks;
 import org.mockito.MockitoAnnotations;
 import org.springframework.test.web.servlet.MockMvc;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
@@ -38,7 +38,7 @@ public class DoBizTextOverviewControllerTest {
 
 	private MockMvc mockMvc;
 
-	@BeforeMethod
+	@BeforeClass
 	public void initMocks() {
 		MockitoAnnotations.initMocks(this);
 		mockMvc = standaloneSetup(doBizTextOverviewController).build();

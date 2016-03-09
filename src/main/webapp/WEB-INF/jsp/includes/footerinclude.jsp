@@ -9,7 +9,9 @@
 <script src="<c:url value='/resources/js/main.js'/>"></script>
 
 <%-- Gmap js --%>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="<c:url value='/resources/js/gmaps.js'/>"></script>
+
 <script src="<c:url value='/resources/js/wow.min.js'/>"></script>
 <script src="<c:url value='/resources/js/jquery.countTo.js'/>"></script>
 
